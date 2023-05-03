@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Meta -->
+    <meta name="description" content="Página oficial de zonacl, descubre nuestros servicios: CL1Play & Rooster's Beak">
+    <meta name="author" content="Zonacl">
+    <title>ZONACL1</title>
+    <!-- vendor css -->
+    <link href="../lib/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="../lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <!-- azia CSS -->
+    <link rel="stylesheet" href="../css/azia.css">
+    <link rel="stylesheet" href="../css/zonacl.css">
+    <link rel="stylesheet" href="../css/demo.css">
+  </head>
+
+  <body>
+<!-- Example
+<div class="container mt-5 mb-5">
+    <div class="row d-flex justify-content-center">
+        <div class="col-md-8">
+            <div class="d-flex flex-row"></div>
+            <div class="row news-card p-3 bg-white">
+                <div class="col-md-4">
+                    <div class="feed-image"><img class="news-feed-image rounded img-fluid img-responsive" src="https://i.imgur.com/ZKbpmaU.jpg"></div>
+                </div>
+                <div class="col-md-8">
+                    <div class="news-feed-text">
+                        <h5>Green plants are going to extinct about 500 times</h5><span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard<br></span>
+                        <div class="d-flex flex-row justify-content-between align-items-center mt-2">
+                            <div class="d-flex creator-profile"><img class="rounded-circle" src="https://i.imgur.com/uSlStch.jpg" width="50" height="50">
+                                <div class="d-flex flex-column ml-2">
+                                    <h6 class="username">Alexendor patriot</h6><span class="date">Jan 20,2020</span>
+                                </div>
+                            </div><i class="fa fa-share share"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+-->
+
+<!-- Flexbox container for aligning the toasts -->
+<div aria-live="polite" aria-atomic="true" class="divToast">
+
+  <!-- Then put toasts within -->
+  <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-delay="3000">
+    <div class="toast-header">
+      <i class="fas fa-check rounded mr-2"></i>
+      <strong class="mr-auto">Enviado</strong>
+      <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="toast-body">
+      Gracias por contactarnos, revisaremos tu mensaje lo más pronto posible.
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+ 
+    <script src="../lib/jquery/jquery.min.js"></script>
+    <script src="../lib/jquery/jquery.slim.min.js"></script>
+    <script src="../lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../lib/ionicons/ionicons.js"></script>
+    <script src="../js/cookie.js" type="text/javascript"></script>
+    <script src="../js/azia.js"></script>
+
+    <script>
+      $(document).ready(function(){
+        $('.toast').toast('show')
+      })
+    </script>
+
+  </body>
+</html>

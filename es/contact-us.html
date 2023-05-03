@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="language" content="Spanish">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Meta -->
+    <meta name="author" content="Zonacl">
+    <meta name="description" content="Página oficial de zonacl, contenido independiente y enfocado al entretenimiento, programación y demás.">
+    <meta name="keywords" content="zonacl, cl1play, rooster's beak"/>
+    <meta name="copyright" content="Zonacl 2023" />
+    <meta name="robots" content="index,follow" />
+    <meta http-equiv="cache-control" content="no-cache"/>
+    <title>ZONACL1</title>
+    <!-- vendor css -->
+    <link href="../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../lib/fontawesome/css/all.min.css" rel="stylesheet">
+    <link href="../lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <!-- azia CSS -->
+    <!--<link rel="stylesheet" href="../css/theme.css">-->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/custom.css">
+    <!-- Google Analytics - Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-08DDM2Y931"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-08DDM2Y931');
+    </script>
+  </head>
+  <body>
+
+    <div id="nav"></div>
+
+
+
+    <div class="container mt-4">
+      
+      <section class="cards contenedor">
+        
+        <div class="border-bottom text-center mb-3 mt-2">
+          <h2 class="h3">¿Donde contactarnos?</h2>
+        </div>
+
+        <div class="content-cards">
+          <article class="cardSocial" role="article">
+              <i class="fab fa-twitter-square"></i>
+              <h5>Twitter</h5>
+              <p>@CL1Play</p>
+              <a role="button" target="_blank" href="https://twitter.com/CL1Play" class="btn btn-indigo rounded-0">Visitar</a>
+          </article>
+          <article class="cardSocial" role="article">
+              <i class="fab fa-discord"></i>
+              <h5>Discord</h5>
+              <p>CL1Play#1643</p>
+              <a target="_blank" href="https://discord.gg/dySaUd2" class="btn btn-indigo rounded-0">Visitar</a>
+          </article>
+          <article class="cardSocial" role="article">
+              <i class="fab fa-instagram"></i>
+              <h5>Instagram</h5>
+              <p>CL1Play</p>
+              <a target="_blank" href="https://www.instagram.com/CL1Play" class="btn btn-indigo rounded-0">Visitar</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="cards contenedor mt-5">
+        <div class="border-bottom text-center mb-3 mt-2">
+          <h2 class="h3">Información de contacto</h2>
+        </div>
+        <p class="text-center">¿Tiene alguna pregunta? No dude en ponerse en contacto con nuestro soporte técnico</p><br>
+        <div class="content-cards">
+          <article class="cardSocial" data-bs-toggle="modal" data-bs-target="#map">
+              <i class="fas fa-map-signs"></i>
+              <h5>Dirección</h5>
+              <p>Guayaquil, Ecuador</p>
+          </article>
+          <article class="cardSocial" data-bs-toggle="modal" data-bs-target="#contact">
+              <i class="fas fa-envelope-open"></i>
+              <h5>Correo</h5>
+              <p>contact@zonacl.com</p>
+          </article>
+          <article class="cardSocial" data-bs-toggle="modal" data-bs-target="#chat">
+              <i class="fas fa-phone"></i>
+              <h5>Teléfono</h5>
+              <p>Aún no disponible</p>
+          </article>
+        </div>
+      </section>
+
+    </div>
+   
+
+
+     <!--Contact Modal Map-->
+    <div class="modal fade" id="map" tabindex="-1" role="dialog" aria-labelledby="modalMap" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h3 class="modal-title h5">¿Donde encontrarnos?</h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <!-- Modal body -->
+          <div class="modal-body">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d180430.6887855255!2d-79.96493513810297!3d-2.156504631304748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d13cbe855805f%3A0x8015a492f4fca473!2sGuayaquil!5e0!3m2!1ses!2sec!4v1633225436623!5m2!1ses!2sec" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline-indigo" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!--Contact Modal Contact Form-->
+    <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="modalContact" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content bg-white">
+                <div class="modal-header">
+                    <h3 class="modal-title h5" id="tittleModalLabel">¡Nos encantaría saber de ti!</h3> 
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="form my-3 mr-2 ml-2" action="https://formspree.io/f/xnqgroew" method="POST" id="formContact">
+                        <div class="form-row mb-3">
+                          <div class="form-group col-sm">
+                            <label class="form-label" for="InputNombre">Ingrese su nombre y apellido</label> 
+                            <input type="text" class="form-control" id="InputNombre" name="name" required="">
+                          </div>
+                        </div>
+                        <div class="form-group mb-3"> 
+                          <label class="form-label" for="InputEmail1">Ingrese su correo</label> 
+                          <input type="email" class="form-control" id="InputEmail" name="_replyto" required=""> 
+                        </div>
+                        <div class="form-group mb-3"> 
+                          <label class="form-label" for="InputTextarea">Tu consulta o sugerencia</label> 
+                          <textarea class="form-control" id="InputTextarea" rows="2" name="message" required=""></textarea> 
+                        </div>
+                        <div class="modal-footer pt-2 p-0"> 
+                          <button type="submit" class="btn btn-outline-indigo rounded-0" style="width:100%;">Enviar</button> 
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Contact Modal Whatsapp-->
+    <div class="modal fade" id="chat" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h3 class="modal-title h5">¿Donde encontrarnos?</h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <!-- Modal body -->
+          <div class="modal-body">
+            <form class="form my-3 mr-2 ml-2 content-cards">
+              <div class="cardSocial">
+                <!--<a href="https://wa.me/1XXXXXXXXXX">-->
+                <i class="fab fa-whatsapp"></i>
+                <p >Enviar mensaje (Aún no disponible)</p></a>
+              </div>
+            </form>
+          </div>
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline-indigo" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mb-4"></div>
+
+    
+
+    <div id="footer"></div>
+
+    <script src="../lib/jquery/jquery.min.js"></script>
+    <script src="../lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script>
+      $(function(){
+        'use strict'
+      });
+      $(document).ready(function() {
+        $("#nav").load("navbar.html", function() {
+          $('.active-acercade').each(function(){
+           if( $(this).hasClass('active-acercade') ){
+            $('.active-acercade').addClass('active');
+           };
+          });
+        });
+        $("#footer").load("footer.html", function() { 
+          $('.container-fluid').each(function(){
+           if( $(this).hasClass('footer') ){
+            $('.footer').removeClass('footer');
+           };
+          });  
+
+        });
+      });
+    </script>
+    <script>
+      const $form = document.querySelector('#formContact')
+      $form.addEventListener('submit', handleSubmit)
+
+      async function handleSubmit(event) {
+        event.preventDefault()
+        const form = new FormData(this)
+        const response = await fetch(this.action, {
+          method: this.method,
+          body: form,
+          headers: {
+            'Accept': 'application/json'
+          }
+        })
+        if (response.ok){
+          this.reset()
+          alert('Gracias por contactarnos, revisaremos tu mensaje.')
+        }
+      }
+    </script>
+
+  </body>
+</html>

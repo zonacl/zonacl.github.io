@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: zonacl.vercel.app
+Token: 2dc4a84a090d778a405746bdf60658db9b57ca33f896baaab52bf5de46546e43
